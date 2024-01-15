@@ -5,6 +5,25 @@
       font-family: 'Mulish', sans-serif;
  }
 
+ /* Shared Style */
+ header {
+      margin: 0 auto;
+      border: 2px solid red;
+      max-width: 1170px;
+ }
+
+ .hero-select .btn-primary {
+      padding: 20px;
+      border: none;
+      color: white;
+      font-size: 16px;
+      font-weight: 700;
+      width: 150px;
+      border-radius: 8px;
+      background: #FF5400;
+ }
+
+ /* Header related Style start */
  body {
       margin: 0 auto;
       border: 2px solid green;
@@ -63,9 +82,51 @@
  }
 
  .banner .hero-description {
-     margin-top: 20px;
+      margin-top: 20px;
       color: #FFF;
       text-align: center;
       font-size: 1rem;
       font-weight: 400;
  }
+
+ .banner .hero-select {
+      padding: 16px;
+      text-align: center;
+      width: 768px;
+      border-radius: 8px;
+      background: rgba(255, 255, 255, 0.30);
+ }
+
+ .hero-select {
+      margin-top: 50px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+ }
+
+ .hero-select .field {
+      padding: 20px;
+      padding-right: 0;
+      margin-right: 20px;
+      border: none;
+      color: rgba(19, 19, 24, 0.50);
+      font-size: 16px;
+      text-align: left;
+      font-weight: 400;
+      width: 150px;
+      border-radius: 8px;
+      background: #FFF;
+ }
+
+ .hero-select .btn-primary {
+      padding: 20px;
+      border: none;
+      color: white;
+      font-size: 16px;
+      font-weight: 700;
+      width: 150px;
+      border-radius: 8px;
+      background: #FF5400;
+ }
+
+ /* Header related style end */
