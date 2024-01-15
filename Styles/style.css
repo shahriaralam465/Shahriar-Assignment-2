@@ -23,7 +23,19 @@
       border-radius: 8px;
       background: #FF5400;
  }
-
+ .section-title {
+     margin: 0;
+     color: #131318;
+     font-size: 2.5rem;
+     font-weight: 800;
+}
+.section-description {
+     text-align: justify;
+     margin: 24px 0;
+     color: rgba(19, 19, 24, 0.70);
+     font-size: 1rem;
+     font-weight: 400;
+}
  /* Header related Style start */
  body {
       margin: 0 auto;
@@ -76,7 +88,7 @@
  .banner {
       height: 500px;
       border-radius: 16px;
-      background: linear-gradient(180deg, rgba(19, 19, 24, 0.80) 0%, rgba(19, 19, 24, 0.00) 100%), url('/Images/A.png');
+      background: linear-gradient(180deg, rgba(19, 19, 24, 0.80) 0%, rgba(19, 19, 24, 0.00) 100%), url('../Images/A.png');
       display: flex;
       justify-content: center;
       align-items: center;
@@ -150,21 +162,6 @@
       align-items: start;
  }
 
- .about-section .section-title {
-      margin: 0;
-      color: #131318;
-      font-size: 2.5rem;
-      font-weight: 800;
- }
-
- .about-section .section-description {
-      text-align: justify;
-      margin: 24px 0;
-      color: rgba(19, 19, 24, 0.70);
-      font-size: 1rem;
-      font-weight: 400;
- }
-
  .about-section .list-about {
       margin: 16px 0;
       color: rgba(19, 19, 24, 0.70);
@@ -179,3 +176,13 @@
       border-radius: 8px;
       background: #FF5400;
  }
+ /* about section related style ended */
+
+ /* destination section related style started */
+ .destination-section{
+     margin-top:100px;
+ }
+ .text-container .section-title ,.text-container .section-description{
+     text-align: center;
+ }
+ /* destination section related style ended */
