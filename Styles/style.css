@@ -23,19 +23,22 @@
       border-radius: 8px;
       background: #FF5400;
  }
+
  .section-title {
-     margin: 0;
-     color: #131318;
-     font-size: 2.5rem;
-     font-weight: 800;
-}
-.section-description {
-     text-align: justify;
-     margin: 24px 0;
-     color: rgba(19, 19, 24, 0.70);
-     font-size: 1rem;
-     font-weight: 400;
-}
+      margin: 0;
+      color: #131318;
+      font-size: 2.5rem;
+      font-weight: 800;
+ }
+
+ .section-description {
+      text-align: justify;
+      margin: 24px 0;
+      color: rgba(19, 19, 24, 0.70);
+      font-size: 1rem;
+      font-weight: 400;
+ }
+
  /* Header related Style start */
  body {
       margin: 0 auto;
@@ -170,19 +173,116 @@
  }
 
  .about-section .btn-primary {
-     padding: 15px 15px;
-     text-align: center;
+     margin-top: 40px;
+      padding: 15px 15px;
+      text-align: center;
       width: 174px;
       border-radius: 8px;
       background: #FF5400;
  }
+
  /* about section related style ended */
 
  /* destination section related style started */
- .destination-section{
-     margin-top:100px;
+ .destination-section,
+ .choose-section {
+      margin-top: 100px;
  }
- .text-container .section-title ,.text-container .section-description{
-     text-align: center;
+
+ .text-container .section-title,
+ .text-container .section-description {
+      text-align: center;
  }
+
  /* destination section related style ended */
+
+
+ /* Why choose us section related styles started */
+ .plannig-area {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: row;
+      flex-wrap: wrap;
+      gap: 20px;
+ }
+
+ .plannig-area .services-1 {
+      padding: 20px;
+      border-radius: 16px;
+      border: 1px solid rgba(251, 181, 99, 0.20);
+      background: rgba(251, 181, 99, 0.05);
+      width: 520px;
+      height: 270px;
+ }
+
+ .plannig-area .services-2 {
+      padding: 20px;
+      border-radius: 16px;
+      border: 1px solid rgba(41, 206, 246, 0.20);
+      background: rgba(41, 206, 246, 0.05);
+      width: 520px;
+      height: 270px;
+ }
+
+ .plannig-area .services-3 {
+      padding: 20px;
+      border-radius: 16px;
+      border: 1px solid rgba(233, 68, 68, 0.20);
+      background: rgba(233, 68, 68, 0.05);
+      width: 520px;
+      height: 270px;
+ }
+
+ .plannig-area .pack-title {
+      color: #131318;
+      font-size: 24px;
+      font-weight: 800;
+ }
+
+ .plannig-area .pack-description {
+      color: #5A5A5D;
+      font-size: 16px;
+      font-weight: 400;
+      line-height: 26px;
+ }
+
+ /* Why choose us section related styles ended */
+
+
+ /* Place section related styles started */
+ .place-section {
+      margin-top: 100px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      width: 100%;
+ }
+
+ .place-section .text-container {
+      width: 50%;
+ }
+
+ .place-section .list-place {
+      margin: 16px 0;
+      color: rgb(0, 0, 0);
+      font-size: 16px;
+      font-weight: 400;
+ }
+
+ .place-section .btn-primary {
+      margin-top: 40px;
+      padding: 15px 15px;
+      text-align: center;
+      width: 174px;
+      border-radius: 8px;
+      background: #FF5400;
+ }
+
+ .place-section .section-title,
+ .place-section .section-description {
+      text-align: left;
+      margin-bottom: 24px;
+ }
+
+ /* Place section related styles ended */
