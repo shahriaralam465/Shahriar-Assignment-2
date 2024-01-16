@@ -1,0 +1,60 @@
+@media screen and (max-width:574px) {
+
+     header,
+     main {
+          max-width: 574px;
+          padding: 20px;
+     }
+
+     .about-section ,
+     .place-section,
+     .img-container,
+     .news-latter-section{
+          margin: 0 auto;
+          flex-direction: column;
+          justify-content: center;
+          align-items: center;
+          
+     }
+
+     .about-section .btn-primary ,
+     .place-section .btn-primary,
+     .form-div {
+          margin-top: 20px;
+     }
+
+     .section-title,
+     .pack-title
+    {
+          font-size: 20px;
+     }
+
+     .section-description,
+     .pack-description {
+          font-size: 14px;
+     }
+
+     .about-container img,
+     .img-container img ,
+     .place-section .text-container 
+     {
+          width: 100%;
+          height: auto;
+     }
+     .plannig-area .services-1
+     {
+          width: 335px;
+          height: 289px;
+     }
+     
+     .video-box video,
+     .place-section .video-box 
+     {
+          width: 100%;
+          height: auto;
+     }
+     .form-div,
+     .save-up{
+          width: 80%;
+     }
+}
