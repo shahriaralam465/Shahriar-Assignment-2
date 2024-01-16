@@ -518,7 +518,7 @@
  /* Footer related styles Stared */
  footer {
       margin-top: 100px;
-      max-width: 1440px;
+      max-width: 100%;
  }
 
  .footer-container {
