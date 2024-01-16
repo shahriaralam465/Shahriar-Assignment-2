@@ -1,6 +1,12 @@
  /* Mulish Font from google fonts */
  @import url('https://fonts.googleapis.com/css2?family=Mulish:wght@400;500;600;700;800&display=swap');
 
+ body {
+      margin: 0 auto;
+      border: 2px solid green;
+      width: 1440px;
+ }
+
  * {
       font-family: 'Mulish', sans-serif;
  }
@@ -9,7 +15,6 @@
  header,
  main {
       margin: 0 auto;
-      border: 2px solid red;
       max-width: 1170px;
  }
 
@@ -53,15 +58,9 @@
  }
 
  /* Header related Style start */
- body {
-      margin: 0 auto;
-      border: 2px solid green;
-      width: 1440px;
- }
 
  header {
       margin: 0 auto;
-      border: 2px solid red;
       max-width: 1170px;
  }
 
@@ -71,7 +70,8 @@
       align-items: center;
  }
 
- nav .nav-title {
+ nav,
+ footer .nav-title {
       display: flex;
       justify-content: center;
       align-items: center;
@@ -98,6 +98,9 @@
  }
 
  nav li a {
+      font-size: 1rem;
+      font-weight: 400;
+      color: #424247;
       text-decoration: none;
  }
 
@@ -265,11 +268,12 @@
  /* Deals & Discount section related styles started */
  .deal-section {
       margin-top: 100px;
-      display: block;
+      display: grid;
       gap: 24px;
  }
 
  .tour-box .location {
+      margin: 0;
       display: flex;
       justify-content: start;
       align-items: center;
@@ -278,15 +282,19 @@
  .tour-box .icon {
       width: 24px;
       height: 24px;
-      margin-left: 10px;
  }
 
  .feature .pack-title {
       margin: 0;
  }
 
+ .feature .pack-description {
+      margin: 10px 10px;
+ }
+
  .tour-box .feature {
-      margin-right: 50px;
+      margin-right: 70px;
+      margin-left: 70px;
       padding: 30px;
       width: 500px;
       height: 300px;
@@ -295,23 +303,67 @@
       background: rgba(255, 255, 255, 0.80);
       backdrop-filter: blur(2.5px);
  }
- .feature .btn-primary{
-     margin: 0;
-     padding-top: 15px;
-     padding-bottom: 15px;
+
+ .feature .btn-primary {
+      cursor: pointer;
+      margin: 0;
+      padding-top: 15px;
+      padding-bottom: 15px;
  }
 
- .deal-section .tour-box{
-     margin-bottom:24px ;
+ .feature .price {
+      margin-bottom: 10px;
+      color: #FF5400;
+      font-size: 20px;
+      font-weight: 800;
+ }
+
+ .deal-section .tour-box {
+      border-radius: 16px;
       display: flex;
       justify-content: right;
       align-items: center;
       background: url('../Images/J.png');
       background-repeat: no-repeat;
       background-position: center;
-      object-fit: cover;
+      background-size: cover;
       width: 1170px;
       height: 500px;
+ }
+
+ .deal-section .second {
+      display: flex;
+      justify-content: left;
+      background: url('../Images/K.png');
+      background-repeat: no-repeat;
+      background-position: center;
+      background-size: cover;
+      width: 1170px;
+      height: 500px;
+ }
+
+ .deal-section .third {
+      background: url('../Images/Mountain.jpg');
+      display: flex;
+      justify-content: right;
+      background-repeat: no-repeat;
+      background-position: center;
+      background-size: cover;
+      width: 1170px;
+      height: 500px;
+ }
+
+ .deal-section .button {
+      cursor: pointer;
+      border: none;
+      color: #FFF;
+      font-size: 20px;
+      font-weight: 800;
+      margin: 0 auto;
+      width: 210px;
+      height: 52px;
+      border-radius: 8px;
+      background: #FF5400;
  }
 
  /* Deals & Discount section related styles  Ended */
@@ -441,9 +493,9 @@
  }
 
  .save {
-      left: 370px;
+      left: 350px;
       top: 230px;
-      transform: rotate(-30deg);
+      transform: rotate(-40deg);
       position: relative;
       display: flex;
       justify-content: center;
@@ -458,3 +510,28 @@
  }
 
  /* News latter section related styles ended */
+
+ /* Footer related styles Stared */
+ footer{
+     margin-top: 100px;
+     max-width: 1440px;
+ }
+ .footer-container {
+      padding-top:50px;
+      padding-bottom:50px;
+      text-align: center;
+      background: rgba(19, 19, 24, 0.05);
+ }
+ .footer-container .social-icons{
+     gap: 30px;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     margin-top: 50px;
+ }
+.footer-container hr{
+     margin: 50px auto;
+     border-top: 1px solid #0000003d;
+     width:870px;
+}
+ /* Footer related styles ended */
