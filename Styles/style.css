@@ -257,6 +257,7 @@
       justify-content: space-between;
       align-items: center;
       width: 100%;
+      gap: 30px;
  }
 
  .place-section .text-container {
@@ -284,5 +285,15 @@
       text-align: left;
       margin-bottom: 24px;
  }
+ .video-box video{
+     
+     width: 610px;
+     height: 424px;
+ }
+ .place-section .video-box{
+     background-image: url('../Images/Video.png');
+     width: 610px;
+     height: 424px;
 
+ }
  /* Place section related styles ended */
