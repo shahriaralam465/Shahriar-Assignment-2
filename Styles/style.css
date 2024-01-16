@@ -3,7 +3,6 @@
 
  body {
       margin: 0 auto;
-      border: 2px solid green;
       width: 1440px;
  }
 
@@ -70,8 +69,7 @@
       align-items: center;
  }
 
- nav,
- footer .nav-title {
+ nav .nav-title {
       display: flex;
       justify-content: center;
       align-items: center;
@@ -209,6 +207,12 @@
  .text-container .section-description {
       text-align: center;
  }
+.img-container{
+     gap:23px;
+     display: flex;
+     flex-direction: row;
+     flex-wrap: wrap;
+}
 
  /* destination section related style ended */
 
@@ -512,26 +516,48 @@
  /* News latter section related styles ended */
 
  /* Footer related styles Stared */
- footer{
-     margin-top: 100px;
-     max-width: 1440px;
+ footer {
+      margin-top: 100px;
+      max-width: 1440px;
  }
+
  .footer-container {
-      padding-top:50px;
-      padding-bottom:50px;
+      padding-top: 50px;
+      padding-bottom: 50px;
       text-align: center;
       background: rgba(19, 19, 24, 0.05);
  }
- .footer-container .social-icons{
-     gap: 30px;
-     display: flex;
-     justify-content: center;
-     align-items: center;
-     margin-top: 50px;
+
+ .footer-container .logo {
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      align-items: center;
  }
-.footer-container hr{
-     margin: 50px auto;
-     border-top: 1px solid #0000003d;
-     width:870px;
-}
+
+ .footer-container .footer-title {
+      margin-left: 5px;
+      color: #131318;
+      font-size: 36px;
+      font-weight: 800;
+ }
+
+ .footer-title span {
+      color: #FF5400;
+ }
+
+ .footer-container .social-icons {
+      gap: 30px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin-top: 50px;
+ }
+
+ .footer-container hr {
+      margin: 50px auto;
+      border-top: 1px solid #0000003d;
+      width: 870px;
+ }
+
  /* Footer related styles ended */
