@@ -43,7 +43,7 @@
 
      .deal-section .tour-box {
           margin: 0 auto;
-          width: 400px;
+          width: 450px;
           height: 500px;
      }
 
@@ -76,7 +76,7 @@
      }
 
      .plannig-area .services-1 {
-          width: 335px;
+          width: 100%;
           height: 289px;
      }
 
@@ -105,12 +105,14 @@
      }
 
      .tour-box .feature {
+          padding-left: 20px;
+          padding-right: 20px;
           width: 600px;
      }
 
      .feature .location {
           flex-direction: row;
-          flex-wrap: nowrap;
+          flex-wrap: wrap;
      }
 
      .feature .pack-title {
