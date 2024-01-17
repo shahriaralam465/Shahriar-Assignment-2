@@ -6,26 +6,56 @@
           padding: 20px;
      }
 
-     .about-section ,
+     .banner .hero-text {
+          font-size: 22px;
+          text-align: center;
+     }
+
+     .hero-description {
+          margin-bottom: -20px;
+          font-size: 14px;
+     }
+
+     .hero-select {
+          gap: 10px;
+          flex-direction: column;
+          width: 80%;
+     }
+
+     .hero-select .field ,.banner .btn-primary  {
+          padding: 15px 0px;
+          margin-top: 0px;
+          width: 100%;
+     }
+
+     .about-section,
      .place-section,
      .img-container,
-     .news-latter-section{
+     .news-latter-section,
+     .deal-section {
+          width: 100%;
           margin: 0 auto;
           flex-direction: column;
           justify-content: center;
           align-items: center;
-          
+
      }
 
-     .about-section .btn-primary ,
+     .deal-section .tour-box {
+          margin: 0 auto;
+          width: 400px;
+          height: 500px;
+     }
+
+     .about-section .btn-primary,
      .place-section .btn-primary,
-     .form-div {
+     .form-div,
+     .deal-section {
           margin-top: 20px;
      }
 
      .section-title,
-     .pack-title
-    {
+     .pack-title {
           font-size: 20px;
      }
 
@@ -35,26 +65,71 @@
      }
 
      .about-container img,
-     .img-container img ,
-     .place-section .text-container 
-     {
+     .place-section .text-container {
           width: 100%;
           height: auto;
      }
-     .plannig-area .services-1
-     {
+
+     .img-container img {
+          width: 100%;
+          height: 176px;
+     }
+
+     .plannig-area .services-1 {
           width: 335px;
           height: 289px;
      }
-     
+
      .video-box video,
-     .place-section .video-box 
-     {
+     .place-section .video-box {
+          border-radius: 16px;
           width: 100%;
-          height: auto;
+          height: 90%;
      }
-     .form-div,
-     .save-up{
-          width: 80%;
+
+     .save-up {
+          width: 100%;
+          height: 400px;
+     }
+
+     .save {
+
+          transform: rotate(0deg);
+          left: 0px;
+     }
+
+     .form-div {
+          padding: 20px;
+          width: 90%;
+
+     }
+
+     .tour-box .feature {
+          width: 600px;
+     }
+
+     .feature .location {
+          flex-direction: row;
+          flex-wrap: nowrap;
+     }
+
+     .feature .pack-title {
+          font-size: 20px;
+     }
+
+     .feature .pack-description {
+          font-size: 16px;
+     }
+
+     .hide {
+          display: none;
+     }
+
+     .feature .price {
+          font-size: 14px;
+     }
+
+     .place-section {
+          margin-top: 50px;
      }
 }
