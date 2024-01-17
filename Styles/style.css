@@ -126,43 +126,39 @@
       font-size: 1rem;
       font-weight: 400;
  }
-
- .banner .hero-select {
+ .hero-select {
+     gap: 25px;
       padding: 16px;
       text-align: center;
-      width: 768px;
+      width:70%;
       border-radius: 8px;
       background: rgba(255, 255, 255, 0.30);
- }
-
- .hero-select {
       margin-top: 50px;
       display: flex;
       justify-content: center;
       align-items: center;
+      flex-direction: row;
  }
 
  .hero-select .field {
       padding: 20px;
-      padding-right: 0;
-      margin-right: 20px;
       border: none;
       color: rgba(19, 19, 24, 0.50);
       font-size: 16px;
       text-align: left;
       font-weight: 400;
-      width: 150px;
+      width:20%;
       border-radius: 8px;
       background: #FFF;
  }
 
  .btn-primary {
+     width: 100%;
       padding: 20px;
       border: none;
       color: white;
       font-size: 1rem;
       font-weight: 700;
-      width: 150px;
       border-radius: 8px;
       background: #FF5400;
  }
@@ -207,12 +203,13 @@
  .text-container .section-description {
       text-align: center;
  }
-.img-container{
-     gap:23px;
-     display: flex;
-     flex-direction: row;
-     flex-wrap: wrap;
-}
+
+ .img-container {
+      gap: 23px;
+      display: flex;
+      flex-direction: row;
+      flex-wrap: wrap;
+ }
 
  /* destination section related style ended */
 
@@ -300,7 +297,7 @@
       margin-right: 70px;
       margin-left: 70px;
       padding: 30px;
-      width: 500px;
+      width: 600px;
       height: 300px;
       border-radius: 16px;
       border: 2px solid #FFF;
@@ -325,7 +322,7 @@
  .deal-section .tour-box {
       border-radius: 16px;
       display: flex;
-      justify-content: right;
+      justify-content: center;
       align-items: center;
       background: url('../Images/J.png');
       background-repeat: no-repeat;
@@ -337,7 +334,7 @@
 
  .deal-section .second {
       display: flex;
-      justify-content: left;
+      justify-content: center;
       background: url('../Images/K.png');
       background-repeat: no-repeat;
       background-position: center;
@@ -349,7 +346,7 @@
  .deal-section .third {
       background: url('../Images/Mountain.jpg');
       display: flex;
-      justify-content: right;
+      justify-content: center;
       background-repeat: no-repeat;
       background-position: center;
       background-size: cover;
@@ -487,12 +484,12 @@
 
  .save h5 {
       margin: 0;
-      font-size: 24px;
+      font-size: 1.5rem;
  }
 
  .save h2 {
       margin: 5px 0px;
-      font-size: 32px;
+      font-size: 2rem;
       font-weight: 800;
  }
 
