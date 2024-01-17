@@ -16,7 +16,10 @@
           font-size: 14px;
      }
 
-     .hero-select {
+     .hero-select,
+     nav,
+     nav ul
+     {
           gap: 10px;
           flex-direction: column;
           width: 80%;
@@ -133,5 +136,14 @@
 
      .place-section {
           margin-top: 50px;
+     }
+
+     .footer-container{
+          padding: 30px 30px;
+     }
+     .footer-container hr {
+          margin: 20px auto;
+          border-top: 1px solid #0000003d;
+          width:500px;
      }
 }
